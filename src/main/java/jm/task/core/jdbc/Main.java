@@ -13,10 +13,10 @@ public class Main {
             userService.createUsersTable();
 
             // Добавление 4 User(ов)
-            userService.saveUser("Дмитрий", "Иванов", (byte) 30);
-            userService.saveUser("Алексей", "Козлов", (byte) 25);
-            userService.saveUser("Макс", "Сидоров", (byte) 35);
-            userService.saveUser("Егор", "Гогов", (byte) 28);
+            userService.saveUser("Dmitry", "Ivanov", (byte) 30);
+            userService.saveUser("Alex", "Kozlov", (byte) 25);
+            userService.saveUser("Maqx", "Sidorov", (byte) 35);
+            userService.saveUser("Jon", "Ditch", (byte) 28);
 
             // Получение всех User(ов) и вывод в консоль
             for (User user : userService.getAllUsers()) {

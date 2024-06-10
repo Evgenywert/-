@@ -78,7 +78,7 @@ public class Util {
             return metadata.getSessionFactoryBuilder().build();
         } catch (Exception e) {
             StandardServiceRegistryBuilder.destroy(registry);
-            throw new RuntimeException("Проверьте настройки, Вы не смогли подключиться к БД", e);
+            throw new RuntimeException("Проверьте настройки, вы не смогли подключиться к БД", e);
         }
     }
 }
